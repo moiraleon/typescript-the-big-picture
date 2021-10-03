@@ -10,3 +10,4 @@
 }
 //generating a file can be done by running tsc --init in the terminal
 //once this is created and we run tsc the files that are tsc throughout the project will be compiled with these settings
+//typescript does type inference so we can not use a input the wrong cariable type

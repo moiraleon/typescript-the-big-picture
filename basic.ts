@@ -20,4 +20,19 @@ webHeading!.textContent=newMessage;
 // tsc basic.ts - creates typescript replica
 // tsc --target ES 2015 --ourDir js basic.ts (creates generated version of EcmaScript 2915 and puts new js in a dir(folder) called js)
 
+
+//explicit types and type inferences 
 //compiler options are cusotmizable-- instead of writing this each time we can create a typescript configuration file called tsconfig.json it is just a plain text file in json format with keys and values
+//usually type inference will take over but you can also write variables as  let firstName:string = "Alice"; but it is not necessary when type inference is used, it is helpful here let someVar:string; when stating var and type
+
+//type information in functions
+// function simpleFunction(name:string, isActive: boolean){
+//     //do something
+// }
+
+///telling it the return type would be after params with colon and then type(i.e. number)
+// function simpleFunction(name:string, isActive: boolean):number{
+//     //do something
+// return 0; code will search and make sure some reachable code returns a number
+// }
+//return type can also be void 
