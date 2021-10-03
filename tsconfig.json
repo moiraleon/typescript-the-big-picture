@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "ES5",
+        "target": "es2015",
         "outDir": "./js",
         "strict": true,
         "noUnusedLocals": true,
@@ -8,3 +8,4 @@
     },
     "exclude": ["./js"]
 }
+//generating a file can be done by running tsc --init in the terminal
